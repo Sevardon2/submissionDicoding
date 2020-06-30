@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    padding: 5px;
+    top: 0;
+    background-color: lawngreen;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+nav a:hover {
+    font-weight: bold;
+}
+div button {
+    margin-top: 12px;
+    margin-right: 10px;
+    float: right;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lawngreen;
+}
+header {
+    display: inline;
+}
+h3 {
+    text-align: center;
+}
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+}
+table {
+    margin: auto;
+}
+.masuk {
+    background-color: blue;
+}
+.daftar {
+    background-color: green;
+}
+.header {
+    font-size: 25px;
+    padding: 50px;
+    text-align: center;
+    background-color: lightgreen;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    height: 400px;
+    width: 32%;
+}
+.gambar {
+    height: 70%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+aside {
+    float: left;
+    width: 25%;
+    padding-right: 25px;
+}
+#konten {
+    float: right;
+    width: 75%;
+}
+.profil header {
+    text-align: center;
+}
+.box p {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.harga {
+    width: 90%;
+    height: 10%;
+    background-color: orange;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.harga a {
+    text-decoration: none;
+}
+.program2 {
+    margin-left: 33.3%;
+    margin-top: -400px;
+}
+.program3 {
+    margin-left: 66.6%;
+    margin-top: -400px;
+}
+.program2 .harga {
+    margin-top: 35px;
+}
+.profil img {
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.novel2 {
+    margin-left: 33.3%;
+    margin-top: -400px;
+}
+.novel3 {
+    margin-left: 66.6%;
+    margin-top: -400px;
+}
+.komik2 {
+    margin-left: 33.3%;
+    margin-top: -400px;
+}
+.komik3 {
+    margin-left: 66.6%;
+    margin-top: -400px;
+}
+@media screen and (max-width: 1000px) {
+    #konten,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+    .gambar {
+        height: 65%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .box {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
